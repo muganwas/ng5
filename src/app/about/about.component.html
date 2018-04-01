@@ -1,3 +1,10 @@
-<p>
-  about works!
-</p>
+<div class="container dark">
+  <div class="col">Id</div>
+  <div class="col">Goals</div>
+</div>
+<div class="container light">
+  <div class="col">{{ id }}</div>
+  <div class="col">
+      <p class="goal-container" *ngFor="let goal of goals; let i=index">{{ goal }}</p>
+  </div></div>
+  <span>This is what i'm all about. <a href="" (click)="sendMeHome()"><strong>send me back</strong></a></span>

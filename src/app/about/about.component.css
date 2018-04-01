@@ -1,0 +1,40 @@
+.container{
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+.col{
+  padding: 6px 20px;
+}
+.dark{
+  background: #14365b;
+}
+.light{
+  background: #748cbf;
+}
+input.txt {
+  box-sizing: content-box;
+  border:none;
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+input.btn{
+  box-sizing: content-box;
+  border: none;
+  display: block;
+  padding: 10px 20px;
+  background: #67ce89;
+  color: #000000;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.goal-container{
+  background: #9e8cdd;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: lowercase;
+  cursor: pointer;
+}
+.goal-container::first-letter{
+  text-transform: uppercase;
+}
